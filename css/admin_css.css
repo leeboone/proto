@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+
+body.login{
+	background: url("img/admin-bkgd.gif") repeat-x scroll center top grey;
+	height:100%;
+	position:relative;
+	min-height:650px;
+}
+body.login p a,
+body.login p#nav a,
+body.login p#backtoblog a{
+	color:#CEF !important;
+	text-shadow:0 0 5px black;
+}
+.login form {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    box-shadow: none;
+    font-weight: normal;
+    margin-left: 8px;
+    padding: 26px 0px 26px;
+}
+.login label {
+  color: #CCCCCC;
+  font-size: 14px;
+}
+.login form .input, .login input[type="text"]{
+	height: auto;
+}
+body{
+	background-position:center 28px;
+}
+#login h1 a {
+    background: none no-repeat scroll center center transparent;
+    display: block;
+    height: 152px;
+    margin: 0 0 -20px;
+    padding: 0;
+}
+#icon-index{
+	background:url("img/32-admin-icon.png") no-repeat scroll center center;
+}
+#wp-admin-bar-wp-logo > .ab-item .ab-icon{
+	background:url("img/16-admin-icon.png") no-repeat scroll center center !important;
+}
+#wpfooter #footer-left{
+	background:url("img/32-admin-icon.png") no-repeat scroll left center;
+	min-height:32px;
+	padding-left:38px;
+	line-height:32px;
+}
+.description em{
+	font-style:normal;
+	font-weight:bold;
+}

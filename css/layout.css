@@ -1,0 +1,587 @@
+/* Add custom Bootstrap button colors 
+generated via http://charliepark.org/bootstrap_buttons/
+Another useful button resource (for generating button code) is 
+http://www.plugolabs.com/twitter-bootstrap-button-generator/
+===============================
+
+
+/* Hide Bootstrap Navbar for desktop sizes
+===========================================*/
+.navbar-fixed-top{
+  display: none;
+}
+/* Custom Colors for Navbar
+===========================================*/
+.navbar .btn-navbar .icon-bar{
+    background-color: #F3D8BF;
+}
+.navbar-inverse .brand, .navbar-inverse .nav-collapse .nav > li > a, .navbar-inverse .nav-collapse .dropdown-menu a {
+    color: #F3D8BF;
+}
+.navbar-inverse .navbar-inner {
+  background-color: #552600;
+  background-image: linear-gradient(to bottom, #552600, #2B1200);
+  background-repeat: repeat-x;
+  border-color: #2B1200;
+}
+.navbar-inverse .btn-navbar {
+  background-color: #552600;
+  background-image: linear-gradient(to bottom, #552600, #2B1200);
+  background-repeat: repeat-x;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  color: #FFFFFF;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+.navbar-inverse .nav .active > a, .navbar-inverse .nav .active > a:hover, .navbar-inverse .nav .active > a:focus {
+  background-color: #2B1200;
+  color: #FFFFFF;
+}
+.navbar-inverse .nav-collapse .nav li > a:hover, .navbar-inverse .nav-collapse .dropdown-menu li > a:hover{
+  background-color: #2B1200;
+  color: #FFFFFF;
+}
+.navbar-inverse .nav li.dropdown.open > .dropdown-toggle, .navbar-inverse .nav li.dropdown.active > .dropdown-toggle, .navbar-inverse .nav li.dropdown.open.active > .dropdown-toggle {
+  background-color: #2B1200;
+}
+.navbar-inverse .nav li.dropdown > .dropdown-toggle .caret {
+  border-bottom-color: #F3D8BF;
+  border-top-color: #F3D8BF;
+}
+.navbar-inverse .dropdown-menu li > a:hover,
+.navbar-inverse .dropdown-menu li > a:focus,
+.navbar-inverse .dropdown-submenu:hover > a{
+  background-image: linear-gradient(to bottom, #8D2310, #660506);
+}
+.navbar p a, .navbar li a, .navbar dt a, .navbar td a{
+    text-decoration: none;
+}
+
+/* Set Tag Defaults
+=================================*/
+body {
+    background: url("css/img/body-bkgd.gif") repeat-x scroll center top #FFFFFF;
+    font-family:Arial, sans-serif;
+    color:#333;
+    font-size: 12px;
+}
+h1{font-size: 32px}
+h2{font-size: 28px}
+h3{font-size: 24px}
+h4{font-size: 21px}
+h5{font-size: 18px}
+h6{font-size: 15px}
+h1, h2, h3, h4, h5, h6 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    color:#000;
+    margin:1em 0 0;
+    line-height: 1em;
+}
+p, ul, ol, dl, pre{margin: .5em 0;}
+ul{padding:0 0 0 1.5em;}
+ol{padding:0 0 0 2em;}
+ul ul, ol ol, ol ul, ul ol{
+    margin:0 0 0 5px;
+}
+
+
+h1:first-child, h2:first-child, h3:first-child, h4:first-child, h5:first-child, h6{
+    margin-top: 0;
+}
+
+
+a{color: #0092D6;}
+p a, li a, dt a, td a{text-decoration: underline;}
+
+
+/* Styling Classes
+=================================*/
+.alignright{float:right; margin: 0 0 15px 10px;}
+.alignleft{float: left; margin: 0 15px 10px 0;}
+.assistive-text{display: none;}
+.navList, .navList ul{padding:0;}
+.nav a{text-decoration: none;}
+
+
+/* Layout
+=================================*/
+#siteHeader {
+    margin-bottom: 40px;
+}
+#siteHeader #superNav{
+    float:right;
+}
+#siteHeader #siteTitle {
+    font-size: 6em;
+    margin: 20px 0;
+}
+
+#mainNav .nav {
+    padding:0;
+    margin:0;
+}
+#mainNav .nav li.dropdown > .dropdown-menu{
+    margin:0;
+}
+#mainNav .nav li.dropdown:hover > .dropdown-menu{
+    display: block;
+}
+
+#homeSlider {
+    margin-bottom: 70px;
+    margin-top: 30px;
+}
+.slidewrap .fade{
+    opacity:1;
+}
+#homeSlider .slidewrap {
+    overflow: hidden;
+}
+#homeSlider .slidewrap .slides {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+#homeSlider .slidewrap .slides li {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+}
+#homeSlider .slidewrap .slides li > a {
+    display: block;
+}
+#homeSlider .slidewrap .slides li .slide {
+    position: relative;
+    z-index: 1;
+}
+#homeSlider .slidewrap .slides li > a .slide {
+}
+#homeSlider .slidewrap .slides li .slide .content {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.8);
+    bottom: -5px;
+    color: #333333;
+    left: 0;
+    padding: 10px 5% 15px;
+    position: absolute;
+    width: 90%;
+    z-index: 200;
+}
+#homeSlider .slidewrap .slides li > a .slide .content {
+    text-decoration: none;
+}
+
+#torso a:hover{
+    text-decoration: underline;
+}
+#torso #middle {
+    margin-bottom: 20px;
+}
+#torso #middle #heart {
+    clear: both;
+}
+#torso #middle #heart #postHead, #torso #middle #heart #pageHead {
+  margin: 0 0 30px;
+  position: relative;
+}
+#torso #middle #heart #postHead h1, #torso #middle #heart #pageHead h1 {
+    color: #005580;
+    margin-top: 0;
+}
+#torso #middle #heart #postHead h6, #torso #middle #heart #pageHead h6 {
+    font-size: 0.9em;
+    margin: 5px 0 0 0;
+}
+#torso #middle #heart #postHead hgroup, #torso #middle #heart #pageHead hgroup {
+  border-bottom: 1px solid;
+  color: #005580;
+  padding: 5px 0 15px;
+}
+
+#torso #middle #heart #postHead .comments-link, #torso #middle #heart #pageHead .comments-link {
+  bottom: -13px;
+  left: 5px;
+  margin: 0;
+  position: absolute;
+  z-index: 300;
+}
+
+#torso #middle #heart .content, #torso #middle #heart .commentsList, #torso #middle #heart .commentform {
+  clear: both;
+  margin-bottom: 30px;
+}
+#torso article.image .content *{
+  max-width: 100%;
+}
+
+#torso article .gallery {
+  padding:2px 0 0;
+}
+#torso article .gallery .gallery-item {
+  margin: 0 0 10px;
+}
+#torso article .gallery .gallery-item img {
+  border: 0 none;
+  height: auto;
+  max-width: 90%;
+  box-shadow: 0px 1px 3px #000;
+}
+
+#torso article iframe, #torso article table{width: 100%;}
+
+#torso #middle #heart article {
+  clear:both;
+  margin-bottom: 50px;
+}
+#torso #middle #heart article.single {
+  margin-bottom: 20px;
+}
+#heart .time {
+    background: url("images/time_bkgd.png") no-repeat scroll 0 0  #005580;
+    background-size: 100% 100%;
+    display: table;
+    float: right;
+    margin: 0 0 0 15px;
+    max-height: 93px;
+    padding: 10px 7px 5px;
+    position: relative;
+    width: 50px;
+    z-index: 200;
+}
+#heart .time > span {
+    color: white;
+    display: table-row;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    position: static;
+    text-align: center;
+    vertical-align: bottom;
+    width: 46px;
+}
+#heart .time > span > div {
+    overflow: visible !important;
+    padding: 0 0 5px !important;
+}
+#heart .time .month {
+  font-size: 12px;
+  line-height: .8em;
+  vertical-align: bottom;
+}
+#heart .time .day {
+    vertical-align: middle;
+}
+#heart .time .year {
+    vertical-align: top;
+}
+
+
+#heart table{width: 100%}
+#heart table th{
+    text-align: center;
+    text-transform: capitalize;
+    padding:5px;
+}
+#heart table td{
+    text-align: center;
+    padding:5px;
+}
+#heart table th:first-child, #heart table td:first-child{
+    text-align: left;
+}
+#heart table .label {
+    background: none repeat scroll 0 0 transparent;
+    display: table-cell;
+    font-size: 1em;
+    line-height: 1em;
+    text-align: left;
+    text-shadow: none;
+    vertical-align: baseline;
+}
+#heart table tbody tr{
+    border-radius: 3px;
+}
+#heart table tbody tr:nth-child(2n+1){
+    background-color: #D1F1FF;
+}
+
+.entry-meta .details{
+  list-style: none;
+  padding-left: 0;
+}
+
+#torso .wp-pagenavi{
+    margin-bottom: 30px;
+}
+
+
+
+#torso #rightSidebar {
+}
+#torso #rightSidebar .widget {
+    border-color: #005580;
+    border-style: solid;
+    border-width: 30px 1px 1px;
+    text-align: left;
+    z-index: 80;
+    margin-bottom: 30px;
+    padding:0 5px 5px;
+}
+#torso #rightSidebar .widget h3 {
+    background-color: #005580;
+    color: #FFFFFF;
+    font-size: 1.667em;
+    font-weight: normal;
+    height: 28px;
+    letter-spacing: 0.01em;
+    line-height: 30px;
+    margin: -30px 0 10px;
+    padding: 2px 0 0;
+}
+#torso #rightSidebar .widget h3 a {color:#FFF;}
+#torso #rightSidebar .widget > ul{
+    list-style: none;
+    padding:0;
+}
+#torso #rightSidebar .widget ul ul{
+    list-style: disc;
+}
+#torso #rightSidebar .widget_search:first-child {
+    border: medium none;
+    padding:0;
+    height: 28px;
+}
+#torso #rightSidebar .widget_search:first-child .widgettitle{
+    display: none;
+}
+#torso #rightSidebar .widget_search:first-child #s {
+    padding: 2px 1%;
+    width: 96%;
+}
+#torso #rightSidebar .widget_search:first-child #searchsubmit {
+    display: none;
+}
+
+#commentsList {
+    margin: 0 0 50px;
+}
+#commentsList > li {
+    border-radius: 5px 5px 5px 5px;
+    margin: 0 0 10px;
+    padding: 10px;
+}
+#commentsList li .avatar {
+  float: right;
+  margin: 0 0 15px 15px;
+}
+#commentsList > li:nth-child(2n) {
+    background-color: #EDF9FF;
+}
+
+
+#siteFooter {
+  margin-top: 30px;
+}
+#siteFooter .widgetwrap{
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+#siteFooter .widgetwrap aside{
+    float:left;
+    margin:0 0 30px;
+}
+#siteFooter .widgetwrap aside .widgettitle{
+    margin-bottom: 10px;
+    color:#005580;
+}
+#siteFooter .onecol aside{width:57.5%;}
+#siteFooter .twocol aside{width:32%; margin-left: 10.5%}
+#siteFooter .twocol aside:first-child{width: 57.5%; margin-left: 0;}
+#siteFooter .threecol aside{width:28%; margin-left: 8%;}
+#siteFooter .threecol aside:first-child, #siteFooter .threecol aside:nth-child(3n+1){margin-left: 0; clear:both;}
+#siteFooter .fourcol aside{width:20.5%; margin-left:6%;}
+#siteFooter .fourcol aside:first-child, #siteFooter .fourcol aside:nth-child(4n+1){margin-left: 0; clear:both;}
+#siteFooter .fivecol aside{width:16.8%; margin-left:4%;}
+#siteFooter .fivecol aside:first-child, #siteFooter .fivecol aside:nth-child(5n+1){margin-left: 0; clear:both;}
+#siteFooter #address {
+  font-size: 0.8em;
+  line-height: 1.1em;
+}
+#siteFooter #ownership {
+  font-size: 0.8em;
+  line-height: 1.1em;
+}
+#footerNav{
+    display: block;
+    clear: both;
+    margin-bottom: 30px;
+}
+body #backtotop {
+  bottom: 2%;
+  font-size: 16px;
+  margin: 0;
+  position: fixed;
+  right: 2%;
+  text-align: center;
+  width: auto;
+  z-index: 2000;
+}
+
+/* Contact Form 7
+======================================*/
+#torso article .wpcf7 {
+    float: right;
+    margin: 0 0 15px 5%;
+    width: 45%;
+}
+form {
+}
+form fieldset  {
+}
+form fieldset br {
+    display: none;
+}
+form fieldset  legend {
+    line-height: 1em;
+}
+form  .rowElem {
+    clear: both;
+    margin: 0 0 15px;
+}
+form .rowElem.checkbox{
+  padding-left: 0;
+}
+form .rowElem br{display: none;}
+form  .rowElem > label {
+    line-height: 1em;
+    margin: 0 0 1px;
+}
+form  .rowElem input {
+    padding: 1% 2%;
+    width: 95%;
+    margin:0;
+}
+form  .rowElem dl {
+    display: table-cell;
+    margin: 0;
+}
+form  .rowElem dt {
+}
+form  .rowElem dd {
+    margin: 0;
+}
+form  .nameBlock label {
+}
+form  .nameBlock input {
+    display: inline-block;
+    margin: 0;
+    padding: 1% 2%;
+    width: 44%;
+}
+form  .locationBlock {
+    display: table;
+}
+form  .locationBlock #city {
+}
+form  .locationBlock #state {
+    height: 25px;
+    margin: 0 0 0 2px;
+    width: 50px;
+}
+form  .locationBlock #zip {
+    margin: 0 0 0 2px;
+    width: 5em;
+}
+form  .rowElem textarea {
+    width: 95%;
+}
+
+form .wpcf7-form-control-wrap {
+}
+form .wpcf7-form-control-wrap .wpcf7-checkbox {
+    display: block;
+    position: relative;
+}
+form .wpcf7-form-control-wrap .wpcf7-list-item {
+    display: block;
+    margin: 0;
+}
+form .wpcf7-form-control-wrap .wpcf7-list-item input[type="checkbox"] {
+    height: 14px;
+    line-height: 20px;
+    margin: 0 0 0 -20px;
+    padding: 0;
+    vertical-align: bottom;
+    width: 14px;
+}
+form .wpcf7-form-control-wrap .wpcf7-list-item .wpcf7-list-item-label {
+}
+
+
+/* Responsive
+==================================*/
+@media (min-width: 768px) and (max-width: 979px) {
+}
+
+@media (max-width: 767px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+body{
+  background-position: center 20px;
+}
+
+
+
+}
+
+@media (max-width: 767px) {
+
+body #backtotop {
+  bottom: auto;
+  margin: 0 -23px 0 0;
+  right: 50%;
+  top: -5px;
+}
+
+.navbar-fixed-top{
+  display:block;
+}
+.navbar .container{
+  background: transparent;
+}
+
+#siteHeader{
+  display: none;
+}
+
+#homeSlider{
+}
+
+#siteFooter .widgetwrap aside, #siteFooter .widgetwrap aside:first-child {
+    float: none;
+    margin: 0 0 30px;
+    width: 100%;
+}
+
+#heart .wpcf7 {
+  float: none;
+  clear: both;
+  margin: 0;
+  width: 100%;
+}
+   
+}
+
+@media (max-width: 480px) {
+
+
+}
+
+@media (max-width: 979px) {}
+
+@media (min-width: 980px) {}
