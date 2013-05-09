@@ -137,7 +137,7 @@ $theme_options = get_option('theme_options');
 						$post_thumb_arr = wp_get_attachment_image_src( $post_thumbnail_id, 'home-slide' );
 						$slide_link = get_post_meta( $post->ID, "slide_url_value", true );
 						?>
-						<li><?php echo (($slide_link == true) ? "<a>" : ""); ?><div class="slide" style="background-image:url(<?php echo $post_thumb_arr[0]; ?>);"><?php
+						<li><?php echo (($slide_link == true) ? "<a href='$slide_link'>" : ""); ?><div class="slide" style="background-image:url(<?php echo $post_thumb_arr[0]; ?>);"><?php
 							the_post_thumbnail( "home-slide" );
 							if(get_the_content()){
 								 echo "<div class='content'>";
